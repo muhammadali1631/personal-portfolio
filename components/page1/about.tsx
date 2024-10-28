@@ -7,7 +7,7 @@ const About = () => {
         <span className="text-[#98FAEC]">&lt;h1&gt;</span>
         <h1 className="ml-5 text-4xl">
         Hey <br />
-        I'm <span className="text-[#98FAEC]">Ali</span>,<br />
+        I&apos;m <span className="text-[#98FAEC]">Ali</span>,<br />
         Front-End Developer
         </h1>
         <span className="text-[#98FAEC]">&lt;/h1&gt;</span>

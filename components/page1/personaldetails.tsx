@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import img from '@/images/image1.png'
 import { IoIosMail } from 'react-icons/io'
 import { FaDownload, FaLocationDot } from 'react-icons/fa6'
 
@@ -9,9 +10,7 @@ const PersonalDetails = () => {
 
         <div className="border-white border-4 shad py-7 own w-80 flex flex-col items-center gap-5">
           <Image
-            src={
-              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5SQntNi68ASSiKFpRVzQOMfJCx5aYevH69w&s"
-            }
+            src={img}
             alt="Profile"
             height={200}
             width={200}

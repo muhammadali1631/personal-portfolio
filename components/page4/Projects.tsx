@@ -6,7 +6,6 @@ import project2 from '@/images/project2.png'
 import project3 from '@/images/project3.png'
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa6'
 import { LuMousePointer2 } from "react-icons/lu";
-import { MdWork } from "react-icons/md";
 
 import Link from 'next/link'
 

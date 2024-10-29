@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import img from '@/images/image1.png'
 import { IoIosMail } from 'react-icons/io'
-import { FaDownload, FaLocationDot } from 'react-icons/fa6'
+import { FaLocationDot } from 'react-icons/fa6'
 
 const PersonalDetails = () => {
   return (

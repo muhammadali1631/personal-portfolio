@@ -52,7 +52,7 @@ const Project = () => {
     <div className='flex items-center'>
       <FaArrowLeft onClick={handlePrev} className='text-3xl md:text-6xl bg-gray-700 p-1 md:p-3 rounded-full cursor-pointer'/>
       <Link href={data[index].link}>
-      <Image src={data[index].image} alt='' className='w-[280px] sm:w-[400px] md:w-[600px]'/>
+      <Image src={data[index].image} alt='projects' className='w-[280px] sm:w-[400px] md:w-[600px]'/>
       </Link>
       <FaArrowRight onClick={handleNext} className='text-3xl md:text-6xl bg-gray-700 p-1 md:p-3 rounded-full cursor-pointer'/>
     </div>

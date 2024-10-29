@@ -13,7 +13,7 @@ import { BiLogoTypescript } from "react-icons/bi";
 
 const Skills = () => {
   return (
-    <div className='backgound'>
+    <div className='backgound' id='skills'>
         <div className='bg-[#292F36] h-full w-full absolute -z-10 opacity-90'></div>
         <div className='realtive z-20 grid justify-center w-[100%] py-10 gap-10'>
         <div className=''>

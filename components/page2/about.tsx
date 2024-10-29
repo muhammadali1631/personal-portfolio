@@ -4,7 +4,7 @@ import { MdOutlineKeyboardDoubleArrowDown } from "react-icons/md";
 import img from '@/images/image2.webp'
 const About = () => {
   return (
-    <div className='bg-[#111] pb-16'>
+    <div className='bg-[#111] pb-16' id='about'>
         <div className='text-[#12F7D6] text-7xl w-[100%] flex justify-center py-20'>
         <MdOutlineKeyboardDoubleArrowDown/>
         </div>

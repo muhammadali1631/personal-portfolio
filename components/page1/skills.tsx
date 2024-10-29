@@ -12,7 +12,7 @@ const Skills = () => {
             <p>Tools</p>
         </div>
         <div className='flex text-3xl gap-2 font-medium'>
-            <p className='text-[#98FAEC]'>1+</p>
+            <p className='text-[#98FAEC]'>1Y+</p>
             <p>Experience</p>
         </div>
         

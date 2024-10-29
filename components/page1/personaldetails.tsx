@@ -51,9 +51,9 @@ const PersonalDetails = () => {
                 NEXT JS
               </span>
             </div>
-            <button className="bg-white rounded-2xl items-center gap-2 w-60  text-black flex justify-center py-2">
+            {/* <button className="bg-white rounded-2xl items-center gap-2 w-60  text-black flex justify-center py-2">
               Download CV <FaDownload />
-            </button>
+            </button> */}
           </div>
         </div>
     </div>

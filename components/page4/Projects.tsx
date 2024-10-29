@@ -50,13 +50,13 @@ const Project = () => {
     <div className='flex flex-col items-center'>
     <div className='flex items-center'>
       <FaArrowLeft onClick={handlePrev} className='text-3xl md:text-6xl bg-gray-700 p-1 md:p-3 rounded-full cursor-pointer'/>
-      <Link href={data[index].link}>
+      <Link href={data[index].link} target='_black'>
       <Image src={data[index].image} alt='projects' className='w-[280px] sm:w-[400px] md:w-[600px]'/>
       </Link>
       <FaArrowRight onClick={handleNext} className='text-3xl md:text-6xl bg-gray-700 p-1 md:p-3 rounded-full cursor-pointer'/>
     </div>
       <div className='list-none'>
-        <Link href={data[index].link} className='text-[#12F7D6] text-xl flex items-end border-b-2 py-2'><li>View Website</li> <LuMousePointer2/></Link>
+        <Link href={data[index].link} target='_blank' className='text-[#12F7D6] text-xl flex items-end border-b-2 py-2'><li>View Website</li> <LuMousePointer2/></Link>
       </div>
     </div>
   )

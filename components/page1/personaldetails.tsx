@@ -27,14 +27,14 @@ const PersonalDetails = () => {
                   {" "}
                   <IoIosMail />{" "}
                 </span>{" "}
-                m.alishahzad200@gmail.com
+                m.alishahzad2004@gmail.com
               </p>
               <p className="flex items-center gap-2 text-lg">
                 <span className="text-[#12F7D6]">
                   {" "}
                   <FaLocationDot />{" "}
                 </span>{" "}
-                Turkey
+                Pakistan - Karachi
               </p>
             </div>
             <div className="flex gap-3 text-sm">

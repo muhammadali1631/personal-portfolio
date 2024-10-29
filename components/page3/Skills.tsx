@@ -68,8 +68,8 @@ const Skills = () => {
             <p className='text-xl text-blue-600'>Mongodb</p>
            </div>
             <div className='flex flex-col items-center gap-1'>
-            <h1 className='text-4xl p-6 bg-blue-600 rounded-full'><TbBrandFramerMotion/></h1>
-            <p className='text-xl text-blue-600'>Framer <br /> Motion</p>
+            <h1 className='text-4xl p-6 bg-yellow-600 rounded-full'><TbBrandFramerMotion/></h1>
+            <p className='text-xl text-yellow-600'>Framer <br /> Motion</p>
            </div>
             </div>
           </div>

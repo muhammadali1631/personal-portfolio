@@ -9,7 +9,7 @@ import { useState, ChangeEvent, FormEvent } from 'react';
 
 export default function Contact() {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
-  const [__, setStatus] = useState('');
+  const [, setStatus] = useState('');
 
   
 

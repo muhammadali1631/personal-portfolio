@@ -5,7 +5,7 @@ import { FaGithub } from 'react-icons/fa6'
 
 const Footer = () => {
   return (
-    <div className='border-t-[1px] border-white p-2 flex justify-around items-center'>
+    <div className='border-t-[1px] border-white p-2 flex justify-around items-center w-[100%] max-w-[1500px]'>
         <p>&copy; 2024 Ali Shahzad. All right reserved</p>
         <div className='flex gap-5'>
             <Link href={'https://www.linkedin.com/in/ali-shahzad-42aa24234/'} target='_blank' className='p-2 bg-[#12F7D6] text-black text-lg rounded-full'><BsLinkedin/></Link>

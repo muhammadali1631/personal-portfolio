@@ -6,11 +6,11 @@ import Work from "@/components/page4/Work";
 
 export default function Home() {
   return (
-    <div>
+    <div className="max-w-[1500px]">
       <Main/>
       <About/>
       <Skills/>
-      <Work/>
+      {/* <Work/> */}
     </div>
     );
 }

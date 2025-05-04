@@ -18,8 +18,8 @@ const Header = () => {
     setAttr2(isOpen ? 'block' : 'hidden');
   }
   return (
-    <div className='mx-8 my-3'>
-        <div className='py-3 flex justify-between items-center border-b-2 border-[#43454D]'>
+    <div className='mx-8 my-3 w-[100%] max-w-[1500px] ab'>
+        <div className='p-3  flex justify-between items-center border-b-2 border-[#43454D]'>
             <Link href={"/"}>
          <p className='text-2xl font-semibold'><span className='text-[#12F7D6]'>&lt;Ali/&gt;</span></p>
          </Link>

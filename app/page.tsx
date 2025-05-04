@@ -1,16 +1,18 @@
+import About from "@/components/section/About";
+import Contact from "@/components/section/Contact";
+import Hero from "@/components/section/Hero";
+import Projects from "@/components/section/Projects";
+import Skills from "@/components/section/Skills";
 import React from "react";
-import Main from "@/components/page1/main";
-import About from "@/components/page2/about";
-import Skills from "@/components/page3/Skills";
-import Work from "@/components/page4/Work";
 
 export default function Home() {
   return (
-    <div className="max-w-[1500px]">
-      <Main/>
-      <About/>
-      <Skills/>
-      {/* <Work/> */}
-    </div>
+    <>
+    <Hero/>
+    <About/>
+    <Skills/>
+    <Projects/>
+    <Contact/>
+    </>
     );
 }

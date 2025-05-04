@@ -55,7 +55,7 @@ export default function About() {
               deliver complete solutions.
             </p>
             <p className="text-muted-foreground">
-              I'm particularly passionate about creating intuitive user interfaces and
+              I&apos;m particularly passionate about creating intuitive user interfaces and
               optimizing application performance. My experience with React, Next.js,
               and various backend technologies enables me to build scalable solutions
               that meet modern web standards.

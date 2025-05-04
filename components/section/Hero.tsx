@@ -74,7 +74,7 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
-            <span className="text-2xl sm:text-3xl text-muted-foreground">Hello, I'm</span>
+            <span className="text-2xl sm:text-3xl text-muted-foreground">Hello, I&apos;m</span>
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight mt-2">Ali</h1>
           </motion.div>
 
